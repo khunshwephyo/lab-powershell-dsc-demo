@@ -1,7 +1,7 @@
 function MyJob {
     
   return @{
-    TaskPath          = '\TP'
+    TaskPath          = '\my-path'
     TaskName          = 'my-task'
     Description       = 'dummy scheduled task for demo purpose with pull client'
     ActionExecutable  = 'c:\projects\my-project\my-test.exe'

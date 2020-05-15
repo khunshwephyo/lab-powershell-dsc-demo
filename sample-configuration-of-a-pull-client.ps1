@@ -141,7 +141,7 @@ Configuration MyScheduledTask {
 
   # note that Enable must be set to $true for the scheduled task to run according to its schedule
   ScheduledTask setupMyTask {
-    TaskPath          = '\TP'
+    TaskPath          = '\my-path'
     TaskName          = 'my-task'
     Description       = 'dummy scheduled task for demo purpose with pull client'
     ActionExecutable  = 'c:\projects\my-project\my-test.exe'
